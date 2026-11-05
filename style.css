@@ -1,0 +1,23 @@
+body {
+  margin: 0 auto;
+  max-width: 48rem;
+  padding: 1rem;
+  font: 1rem/1.6 system-ui, sans-serif;
+  color: #29241b;
+  background: #fff8ed;
+}
+
+header { border-bottom: 1px solid #d9cdbb; padding-bottom: 1rem; }
+.brand { font-size: 1.4rem; font-weight: bold; }
+nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
+a { color: #24573b; }
+a[aria-current="page"] { font-weight: bold; }
+main { padding: 2rem 0; }
+h1 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.1; }
+.button {
+  display: inline-block;
+  padding: .65rem 1rem;
+  border-radius: .4rem;
+  background: #24573b;
+  color: white;
+}
